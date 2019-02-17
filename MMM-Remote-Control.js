@@ -222,7 +222,7 @@ Module.register("MMM-Remote-Control", {
 		if (this.addresses.length === 0) {
 			this.addresses = ["ip-of-your-mirror"];
 		}
-		wrapper.innerHTML = "http://" + this.addresses[0] + ":8080/remote.html";
+		wrapper.innerHTML = "http://" + this.addresses[0] + ":8081/remote.html";
 		wrapper.className = "normal xsmall";
 		return wrapper;
 	},
